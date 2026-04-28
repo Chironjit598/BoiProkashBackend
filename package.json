@@ -1,12 +1,12 @@
 {
   "name": "boi-prokash-backend",
   "version": "1.0.0",
-  "description": "BoiProkash - বাংলাদেশের সেরা অনলাইন বইয়ের দোকান Backend API",
+  "description": "BoiProkash - \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c7\u09b0 \u09b8\u09c7\u09b0\u09be \u0985\u09a8\u09b2\u09be\u0987\u09a8 \u09ac\u0987\u09af\u09bc\u09c7\u09b0 \u09a6\u09cb\u0995\u09be\u09a8 Backend API",
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "dev": "node init && nodemon src/server.js",
+    "start": "node init && node src/server.js",
     "seed": "node src/utils/seeder.js"
   },
   "keywords": [
